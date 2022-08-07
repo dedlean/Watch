@@ -2,5 +2,146 @@ body {
 	font-family: League Spartan, Arial, sans-serif;
 	margin: 0 auto;
 	padding: 0;
-	color: #000;
+	color: #161515;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	margin: 0;
+}
+
+p {
+	margin: 0;
+}
+
+a {
+	color: #bb8b5d;
+	font-weight: 700;
+	text-decoration: underline 1px;
+}
+
+.btn {
+	padding: 30px 73px 30px 73px;
+	background: #161515;
+	text-decoration: none;
+	color: #fff;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+header {
+	background: #f8f8f8;
+	padding-bottom: 168px;
+}
+
+.header__container {
+	display: flex;
+	width: 80%;
+	margin: 0 auto;
+}
+
+.header__offer__product-name {
+	padding-top: 104px;
+	margin-bottom: 53px;
+	font-weight: 300;
+	font-size: 24px;
+}
+
+.header__offer__main-title {
+	font-size: 250px;
+	font-weight: 300;
+}
+
+.header__offer__desc {
+	font-size: 32px;
+	font-weight: 300;
+	line-height: 1.5em;
+	margin-bottom: 61px;
+}
+
+.header__offer__btn-block {
+	display: flex;
+}
+
+.header__offer__btn-block__price {
+	padding: 30px 30px 30px 30px;
+	background: #fff;
+	font-weight: 300;
+	font-size: 32px;
+}
+
+main {
+	text-align: center;
+	padding-top: 43px;
+}
+
+main p {
+	font-weight: 300;
+	font-size: 24px;
+	margin-bottom: 17px;
+}
+
+h2 {
+	font-size: 72px;
+	margin: 0;
+	font-weight: 400;
+}
+
+main img {
+	padding: 110px 60px 110px 60px;
+	margin-bottom: 67px;
+	background: #f8f8f8;
+}
+
+main img:nth-child(2) {
+	padding-right: 0;
+	padding-left: 0;
+}
+
+.main__product__name {
+	margin-bottom: 17px;
+	font-size: 32px;
+	font-weight: 400;
+}
+
+.desc {
+	font-size: 32px;
+	font-weight: 300;
+	width: 520px;
+	margin: 0 auto;
+	line-height: 1.5em;
+}
+
+.son22 {
+	margin-top: 60px;
+	margin-bottom: 60px;
+}
+
+footer {
+	margin-top: 115px;
+	text-align: center;
+	padding-bottom: 142px;
+}
+
+.footer__title {
+	font-size: 32px;
+	font-weight: 400;
+	padding-bottom: 30px;
+	display: block;
+	margin: 0 auto;
+}
+
+/*.footer__title:after {
+	content: "";
+	background: #000;
+	height: 3px;
+	left: 0;
+	bottom: 25%;
+	width: 180px;
+	position: absolute;
+}*/
+
+.footer__text {
+	font-size: 24px;
+	font-weight: 300;
+	margin-top: 50px;
 }
