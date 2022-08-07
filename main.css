@@ -28,6 +28,14 @@ a {
 	font-size: 32px;
 }
 
+.btn:hover {
+	outline: 3px solid #161515;
+	outline-offset: -3px;
+	background: #f8f8f8;
+	color: #161515;
+	transition: .3s;
+}
+
 header {
 	background: #f8f8f8;
 	padding-bottom: 168px;
@@ -44,6 +52,11 @@ header {
 	margin-bottom: 53px;
 	font-weight: 300;
 	font-size: 24px;
+}
+
+.header__offer__product-name:hover {
+	padding-left: 110px;
+	transition: .3s;
 }
 
 .header__offer__main-title {
@@ -90,6 +103,11 @@ main img {
 	padding: 110px 60px 110px 60px;
 	margin-bottom: 67px;
 	background: #f8f8f8;
+}
+
+main img:hover {
+	transform: scale(1.1);
+	transition: .3s;
 }
 
 main img:nth-child(2) {
